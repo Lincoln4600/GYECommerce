@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Todoproducto">
+
+    <fragment
+        android:id="@+id/nav_Todoproducto"
+        android:name="com.gyecommerce.zamoraonline.ui.Todoproducto.TodoproductoFragment"
+        android:label="@string/TodoProducto"
+        tools:layout="@layout/fragment_todoproducto" />
+
+    <fragment
+        android:id="@+id/nav_Confiteria"
+        android:name="com.gyecommerce.zamoraonline.ui.confiteria.ConfiteriaFragment"
+        android:label="@string/Confiteria"
+        tools:layout="@layout/fragment_confiteria" />
+
+    <fragment
+        android:id="@+id/nav_Enlatados"
+        android:name="com.gyecommerce.zamoraonline.ui.enlatados.EnlatadosFragment"
+        android:label="@string/Enlatados"
+        tools:layout="@layout/fragment_enlatados" />
+
+    <fragment
+        android:id="@+id/nav_Frutas"
+        android:name="com.gyecommerce.zamoraonline.ui.frutas.FrutasFragment"
+        android:label="@string/Frutas"
+        tools:layout="@layout/fragment_frutas" />
+
+    <fragment
+        android:id="@+id/nav_Carnes"
+        android:name="com.gyecommerce.zamoraonline.ui.carnes.CarnesFragment"
+        android:label="@string/Carnes"
+        tools:layout="@layout/fragment_carnes" />
+
+    <fragment
+        android:id="@+id/nav_Cereales"
+        android:name="com.gyecommerce.zamoraonline.ui.cereales.CerealesFragment"
+        android:label="@string/Cereales"
+        tools:layout="@layout/fragment_cereales" />
+
+    <fragment
+        android:id="@+id/nav_Lacteos"
+        android:name="com.gyecommerce.zamoraonline.ui.lacteos.LacteosFragment"
+        android:label="@string/Lacteos"
+        tools:layout="@layout/fragment_lacteos" />
+
+    <fragment
+        android:id="@+id/nav_Suplementos"
+        android:name="com.gyecommerce.zamoraonline.ui.suplementos.SuplementosFragment"
+        android:label="@string/Suplementos"
+        tools:layout="@layout/fragment_suplementos" />
+
+    <fragment
+        android:id="@+id/nav_Otros"
+        android:name="com.gyecommerce.zamoraonline.ui.otros.OtrosFragment"
+        android:label="@string/Otros"
+        tools:layout="@layout/fragment_otros" />
+
+
+    <fragment
+        android:id="@+id/nav_Contactanos"
+        android:name="com.gyecommerce.zamoraonline.ui.contactanos.ContactanosFragment"
+        android:label="@string/menu_contáctanos"
+        tools:layout="@layout/fragment_contactanos" />
+
+    <fragment
+        android:id="@+id/nav_TrabajaConNosotros"
+        android:name="com.gyecommerce.zamoraonline.ui.trabajaconnosotros.TrabajaconnosotrosFragment"
+        android:label="@string/menu_trabaja"
+        tools:layout="@layout/fragment_trabajaconnosotros" />
+</navigation>

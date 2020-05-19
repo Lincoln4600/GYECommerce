@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Todoproducto"
+            android:icon="@drawable/todosproductos"
+            android:title="@string/TodoProducto" />
+    </group>
+
+    <item android:title="Categorias">
+        <menu>
+            <item
+                android:id="@+id/nav_Confiteria"
+                android:icon="@drawable/icon_dulces"
+                android:title="@string/menu_confiteria" />
+            <item
+                android:id="@+id/nav_Enlatados"
+                android:icon="@drawable/icon_galletas_enlatados"
+                android:title="@string/menu_conservas" />
+            <item
+                android:id="@+id/nav_Frutas"
+                android:icon="@drawable/icon_frutas"
+                android:title="@string/menu_frutas" />
+            <item
+                android:id="@+id/nav_Carnes"
+                android:icon="@drawable/icon_carnes_mariscos"
+                android:title="@string/menu_carnes" />
+            <item
+                android:id="@+id/nav_Cereales"
+                android:icon="@drawable/icon_cereales"
+                android:title="@string/menu_cereales" />
+            <item
+                android:id="@+id/nav_Lacteos"
+                android:icon="@drawable/icon_lacteos"
+                android:title="@string/menu_lacteos" />
+            <item
+                android:id="@+id/nav_Suplementos"
+                android:icon="@drawable/icon_suplementos"
+                android:title="@string/menu_suplementos" />
+            <item
+                android:id="@+id/nav_Otros"
+                android:icon="@drawable/icon_variados"
+                android:title="@string/menu_otros" />
+        </menu>
+    </item>
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/nav_Contactanos"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="@string/menu_contáctanos" />
+            <item
+                android:id="@+id/nav_TrabajaConNosotros"
+                android:icon="@drawable/trabaja"
+                android:title="@string/menu_trabaja" />
+        </menu>
+    </item>
+
+</menu>
